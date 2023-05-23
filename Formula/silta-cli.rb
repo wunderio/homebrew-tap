@@ -20,6 +20,6 @@ class SiltaCli < Formula
 
   test do
     version_output = shell_output("#{bin}/silta version 2>&1")
-    assert_match("#{version}", version_output)
+    assert_match(@version.to_s, version_output)
   end
 end

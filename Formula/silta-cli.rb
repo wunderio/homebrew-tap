@@ -9,6 +9,7 @@ class SiltaCli < Formula
   def install
     system "go", "mod", "download"
     system "go", "build", "-a", *std_go_args(output: "#{bin}/silta")
+    generate_completions_from_executable("#{bin}/silta", "completion")
   end
 
   def caveats

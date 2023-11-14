@@ -1,8 +1,8 @@
 class SiltaCli < Formula
   desc "CI/CD deployment command abstraction, utilities and tools for Silta"
   homepage "https://github.com/wunderio/silta-cli"
-  url "https://github.com/wunderio/silta-cli/archive/refs/tags/0.1.24.tar.gz"
-  sha256 "501d5743e6285f6c887f62e5a0bcbfdd1e1431dfa2dce16ceeebbad0f9d02f8c"
+  url "https://github.com/wunderio/silta-cli/archive/refs/tags/1.0.0.tar.gz"
+  sha256 "d4e7486f36ba7efd6263ce3efcdcb011d21512187bebd664c81b6a217f3a9675"
 
   depends_on "go" => :build
 

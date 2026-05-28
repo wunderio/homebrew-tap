@@ -25,7 +25,7 @@ jobs:
 
       - name: Install bubblewrap
         if: runner.os == 'Linux'
-        run: brew install bubblewrap
+        run: sudo apt-get update && sudo apt-get install -y bubblewrap
 
       - name: Install Homebrew Bundler RubyGems
         if: steps.cache.outputs.cache-hit != 'true'

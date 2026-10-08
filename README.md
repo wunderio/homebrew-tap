@@ -1,4 +1,4 @@
-# Wunderio Tap
+# Mearra (Wunderio) Tap
 
 ## How do I install these formulae?
 
